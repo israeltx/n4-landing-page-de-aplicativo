@@ -14,6 +14,7 @@
 }
 
 :root {
+  /* Colors */
   --bg-color: #09090B;
   --surface-color: #18181B;
   --stroke-color: #27272A;
@@ -22,16 +23,28 @@
   --brand-color-primary: #F7F733;
   --brand-color-secondary: #FC4A1A;
 
+  /* Font Stack */
   --ff-sans: 'Inter', system-ui, sans-serif;
+
+  /* Font Weight */
   --fw-base: 400;
   --fw-md: 500;
   --fw-bold: 800;
 
+  /* Font Size */
   --fs-sm: 0.875rem;
   --fs-base: 1rem;
   --fs-lg: 1.25rem;
   --fs-xl: 1.5rem;
   --fs-2xl: 2.5rem;
+
+  /* Vertical Padding */
+  --py-base: 1rem;
+  --py-lg: 1.5rem;
+  --py-xl: 3rem;
+
+  /* Horizontal Padding */
+  --px-lg: 1.5rem;
 }
 
 html {
@@ -64,8 +77,17 @@ ul[role="list"] { list-style: none; }
 
 @media (width >= 80em) {
   :root {
+    /* Font Size */
     --fs-lg: 2rem;
     --fs-xl: 3rem;
     --fs-2xl: 4rem;
+
+    /* Vertical Padding */
+    --py-base: 1.5rem;
+    --py-lg: 2.5rem;
+    --py-xl: 5rem;
+
+    /* Horizontal Padding */
+    --px-lg: 2rem;
   }
 }
