@@ -57,7 +57,10 @@ html {
   scroll-behavior: smooth;
 }
 
-body { background-color: var(--bg-color); }
+body { 
+  background-color: var(--bg-color);
+  overflow-x: hidden;
+}
 
 h1, h2, h3 {
   line-height: 1.2;
